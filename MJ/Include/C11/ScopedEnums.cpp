@@ -50,12 +50,14 @@ int ScopedEnums()
         Blue
     };
 
+    /*
     enum test2
     {
         Red,
         Green,
         Blue
     };
+    */
 
     unsigned int WhichEnumVariable = Red;   // test2의 Red를 쓰고싶은데 test1의 Red로 잡히고 있다.
 

@@ -15,4 +15,24 @@ void PrintLog(const TCHAR* LogText)
 auto ScopedEnums() -> int;
 auto ScopedEnumExamples() ->int;
 
+auto Constexpr() -> int;
+auto ConstexprExamples() -> int;
+
+auto VariadicTemplate() -> int;
+
+auto AutoDecltype() -> int;
+
+auto RValueReference() -> int;
+auto MoveConstructor() -> int;
+
+auto Nullptr() -> int;
+
+auto Attributes() -> int;
+
+auto LambdaExpression() -> int;
+
+auto RangedFor() -> int;
+
+auto Staticassertion() -> int;
+
 #endif
