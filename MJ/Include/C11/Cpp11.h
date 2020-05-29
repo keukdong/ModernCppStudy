@@ -4,18 +4,17 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_map>
+#include <list>
 
 #include <Windows.h>
 
-void PrintLog(const TCHAR* LogText)
-{
-    std::cout << LogText << std::endl;
-}
+void PrintLog(const TCHAR* LogText);
 
 auto ScopedEnums() -> int;
 auto ScopedEnumExamples() ->int;
 
-auto Constexpr() -> int;
+auto Constexpr(int InValue) -> int;
 auto ConstexprExamples() -> int;
 
 auto VariadicTemplate() -> int;
@@ -32,6 +31,7 @@ auto Attributes() -> int;
 auto LambdaExpression() -> int;
 
 auto RangedFor() -> int;
+auto RangedForExamples() -> int;
 
 auto Staticassertion() -> int;
 

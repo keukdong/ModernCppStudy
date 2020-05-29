@@ -1,7 +1,6 @@
 
 #include "Cpp11.h"
 
-
 using namespace std;
 
 class ConstexprClass
@@ -23,6 +22,7 @@ int Constexpr(int InValue)
     constexpr int Test2 = 4;
 
     // constexpr vs const
+    // static const 지역 변수는 최초 한번만 초기화 된 후 그 뒤에 바뀌지 않는다.
     static const int StaticConstInt = InValue;
 
     /* constexpr은 컴파일 타임때 그 값을 알고 있어야한다. */
