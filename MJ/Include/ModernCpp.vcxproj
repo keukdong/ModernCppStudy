@@ -22,6 +22,7 @@
     <ClCompile Include="C11\constexpr.cpp" />
     <ClCompile Include="C11\ScopedEnums.cpp" />
     <ClCompile Include="Cpp11.cpp" />
+    <ClCompile Include="LambdaExpression.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RangedFor.cpp" />
   </ItemGroup>
