@@ -20,11 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C11\constexpr.cpp" />
+    <ClCompile Include="C11\Cpp11.cpp" />
+    <ClCompile Include="C11\LambdaExpression.cpp" />
+    <ClCompile Include="C11\RangedFor.cpp" />
+    <ClCompile Include="C11\RValueReference.cpp" />
     <ClCompile Include="C11\ScopedEnums.cpp" />
-    <ClCompile Include="Cpp11.cpp" />
-    <ClCompile Include="LambdaExpression.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="RangedFor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C11\Cpp11.h" />
