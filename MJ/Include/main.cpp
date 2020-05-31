@@ -10,5 +10,7 @@ int main(void)
     Constexpr(2);
 
     RangedFor();
+
+    RValueReference();
     return 0;
 }
