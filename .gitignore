@@ -5,3 +5,11 @@
 *.ipch
 *.suo
 *.obj
+*.pdb
+*.lastbuildstate
+*.log
+*.obj.enc
+*.idb
+*.ilk
+*.exe
+*.1.tlog
