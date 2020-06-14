@@ -12,5 +12,9 @@ int main(void)
     RangedFor();
 
     RValueReference();
+
+    Staticassertion();
+
+    Attributes();
     return 0;
 }
